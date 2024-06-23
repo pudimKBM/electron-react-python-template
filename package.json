@@ -2,14 +2,21 @@
   "author": "Daniel Wade",
   "description": "Started template for Electron, React, Python app",
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.15.20",
     "@reduxjs/toolkit": "^1.1.0",
-    "axios": "^0.21.1",
+    "axios": "^0.21.4",
     "electron-is-dev": "^1.2.0",
     "get-port": "^5.1.1",
+    "hast-util-to-jsx-runtime": "^2.3.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-markdown": "^9.0.1",
     "react-redux": "^7.2.0",
+    "react-router-dom": "^6.23.1",
     "react-scripts": "3.4.1"
   },
   "devDependencies": {

@@ -6,9 +6,9 @@ body section.titlebar {
   padding: 0;
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100vw;
-  max-width: 100vw;
+  left: 240px; // Adjust to the width of the sidebar
+  width: calc(100vw - 240px);
+  max-width: calc(100vw - 240px);
   -webkit-user-select: none;
   -webkit-app-region: drag;
   background-color: #eaeaea;
@@ -27,6 +27,5 @@ body section.titlebar {
       width: 20px;
       padding: 5px;
     }
-
   }
 }
